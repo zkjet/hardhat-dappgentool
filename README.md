@@ -1,13 +1,19 @@
-# Sample Hardhat Project
+![logo](./assets/logo.png)
+# Hardhat-Dapp-Gentools
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+This project was created out of needing a quick way to generate a prewired hardhat project connected to the blockchain in order to get the configuration out of the way early.
 
-Try running some of the following tasks:
+Configurations: 
+hardhat.config.ts
+.env
 
 ```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.ts
+MNEMONIC=""
+PRIVATE_KEY=""
+INFURA_API_KEY=""
+INFURA_API_SECRET=""
+ALCHEMY_API_KEY=""
+ETHERSCAN_API_KEY=""
+POLYGONSCAN_API_KEY=""
+SNOWTRACE_API_KEY=""
 ```
