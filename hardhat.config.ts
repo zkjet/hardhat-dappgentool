@@ -49,13 +49,23 @@ const config: HardhatUserConfig = {
     fuji: {
       url: "https://avalanche-fuji.infura.io/v3/" + INFURA_API_KEY,
       accounts: [PRIVATE_KEY],
-    }
+    },
   },
   etherscan: {
     apiKey: ETHERSCAN_API_KEY,
     // Toggle if switching to other BLOCKCHAIN BLOCKEXPLORER
     // apiKey: POLYGONSCAN_API_KEY,
     // apiKey: SNOWTRACE_API_KEY
+    customChains: [
+      {
+        network: "base-goerli",
+        chainId: 8453,
+        urls: {
+          apiURL: "https://goerli.base.org",
+          browserURL: "https://goerli.basescan.org/",
+        },
+      },
+    ],
   },
 };
 export default config;

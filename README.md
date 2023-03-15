@@ -33,11 +33,12 @@ npx hardhat verify --network sepolia <0xaddress>
 
 ```shell
 [x] Add Sepolia support
+[x] Configure Sepolia to be default network
 [x] Add Goerli support
 [x] Add Polygon support
+[x] Add Coinbase Base L2 support
 [ ] Add Arbitrum support
 [ ] Add Optimism support
-[ ] Add Coinbase Base L2 support
 ```
 
 Donate mainnet real funds: zkjet.eth
