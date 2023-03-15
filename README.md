@@ -1,4 +1,5 @@
 <img src="./assets/logo.png"  width="50%" height="30%" style="display: block; margin: 0 auto" />
+
 # Hardhat-Dapp-Gentools
 
 This project was created out of needing a quick way to generate a prewired hardhat project connected to the blockchain in order to get the configuration out of the way early.
