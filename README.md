@@ -31,12 +31,14 @@ npx hardhat verify --network sepolia <0xaddress>
 
 ## Roadmap/Todo List
 
+```shell
 [x] Add Sepolia support
 [x] Add Goerli support
 [x] Add Polygon support
 [ ] Add Arbitrum support
 [ ] Add Optimism support
 [ ] Add Coinbase Base L2 support
+```
 
 Donate mainnet real funds: zkjet.eth
 
