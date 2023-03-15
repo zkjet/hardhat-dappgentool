@@ -43,12 +43,12 @@ npx hardhat verify --network sepolia <0xaddress>
 
 Donate mainnet real funds: zkjet.eth
 
-```shell
+```s
 0x778075Ad26817050BF209B10C5CaFD7595502e74
 ```
 
 Donate testnet funds to help out devs!:
 
-```shell
+```s
 0x92ba1EF8A82667FcC12B9975cd32fcA171C8d6CF
 ```
